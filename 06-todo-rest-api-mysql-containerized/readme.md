@@ -148,3 +148,11 @@ Hello World
 
 - http://localhost:5000/h2-console
 - Use `jdbc:h2:mem:testdb` as JDBC URL 
+
+## Azure Resource Commands
+
+```
+az group create --name docker-compose-resource-group --location westeurope
+az appservice plan create --name docker-compose-service-plan --sku P1v2 --resource-group docker-compose-resource-group --is-linux 
+az webapp create --resource-group docker-compose-resource-group --plan docker-compose-service-plan --name todo-rest-api-mysql-docker-compose --multicontainer-config-type compose --multicontainer-config-file docker-compose.yaml
+```

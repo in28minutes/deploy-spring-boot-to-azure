@@ -56,7 +56,7 @@
 					<schemaVersion>V2</schemaVersion>
 					<resourceGroup>hello-world-rest-api-v2-rg</resourceGroup>
 					<appName>hello-world-rest-api-v2-in28minutes</appName>
-					<!-- <pricingTier>B1</pricingTier> -->
+					<pricingTier>B1</pricingTier>
 					<region>westeurope</region>
 					<appSettings>
 						<property>

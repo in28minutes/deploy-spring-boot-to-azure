@@ -124,3 +124,36 @@ create table hibernate_sequence (next_val bigint) engine=InnoDB
 insert into hibernate_sequence values ( 1 )
 create table todo (id integer not null, description varchar(255), is_done bit not null, target_date datetime(6), user varchar(255), primary key (id)) engine=InnoDB
 ```
+
+### Plugin Configuration Backup
+
+```
+<plugin>
+	<groupId>com.microsoft.azure</groupId>
+	<artifactId>azure-webapp-maven-plugin</artifactId>
+	<version>1.7.0</version>
+	<configuration>
+		<schemaVersion>V2</schemaVersion>
+		<resourceGroup>todo-web-application-mysql-rg</resourceGroup>
+		<appName>todo-web-application-mysql-in28minutes</appName>
+		<pricingTier>B1</pricingTier>
+		<region>westeurope</region>
+		<runtime>
+			<os>linux</os>
+			<javaVersion>java11</javaVersion>
+			<webContainer>TOMCAT 9.0</webContainer>
+		</runtime>
+		<deployment>
+			<resources>
+				<resource>
+					<directory>${project.basedir}/target</directory>
+					<includes>
+						<include>*.war</include>
+					</includes>
+				</resource>
+			</resources>
+		</deployment>
+	</configuration>
+</plugin>
+
+```

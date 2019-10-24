@@ -78,3 +78,13 @@ Hello World
 ```
 -Dlogging.level.org.springframework=DEBUG
 ```
+
+### Installing curl and watch on windows
+```
+https://curl.haxx.se/windows/
+```
+
+### Installing watch on MAC
+```
+http://osxdaily.com/2010/08/22/install-watch-command-on-os-x/
+```

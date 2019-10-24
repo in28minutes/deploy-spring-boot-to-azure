@@ -186,3 +186,42 @@ Hibernate: alter table user add constraint UK_sb8bbouer5wak8vyiiy4pf2bx unique (
 - http://localhost:5000/h2-console
 - Use `jdbc:h2:mem:testdb` as JDBC URL 
 
+
+## Final Plugin Configuration
+```
+			<plugin>
+				<groupId>com.microsoft.azure</groupId>
+				<artifactId>azure-webapp-maven-plugin</artifactId>
+				<version>1.7.0</version>
+				<configuration>
+					<schemaVersion>V2</schemaVersion>
+					<!-- ServicePlan763a680f-840a-4de0 -->
+					<resourceGroup>rest-api-full-stack-rg</resourceGroup>
+					<appName>rest-api-full-stack-in28minutes</appName>
+					<pricingTier>P1v2</pricingTier>
+					<region>westeurope</region>
+					<appSettings>
+						<property>
+							<name>JAVA_OPTS</name>
+							<value>-Dserver.port=80</value>
+						</property>
+					</appSettings>
+					<runtime>
+						<os>linux</os>
+						<javaVersion>java11</javaVersion>
+						<webContainer>java11</webContainer>
+					</runtime>
+					<deployment>
+						<resources>
+							<resource>
+								<directory>${project.basedir}/target</directory>
+								<includes>
+									<include>*.jar</include>
+								</includes>
+							</resource>
+						</resources>
+					</deployment>
+				</configuration>
+			</plugin>
+
+```

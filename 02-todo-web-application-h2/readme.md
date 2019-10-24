@@ -30,3 +30,35 @@ Runs on default port of Spring Boot - 8080
 </plugin>
 
 ```
+
+## Plugin Final Configuration
+```
+			<plugin>
+				<groupId>com.microsoft.azure</groupId>
+				<artifactId>azure-webapp-maven-plugin</artifactId>
+				<version>1.7.0</version>
+				<configuration>
+					<schemaVersion>V2</schemaVersion>
+					<resourceGroup>todo-web-application-h2-rg</resourceGroup>
+					<appName>todo-web-application-h2-in28minutes</appName>
+					<pricingTier>B1</pricingTier>
+					<region>westeurope</region>
+					<runtime>
+						<os>windows</os>
+						<javaVersion>11</javaVersion>
+						<webContainer>tomcat 9.0</webContainer>
+					</runtime>
+					<deployment>
+						<resources>
+							<resource>
+								<directory>${project.basedir}/target</directory>
+								<includes>
+									<include>*.war</include>
+								</includes>
+							</resource>
+						</resources>
+					</deployment>
+				</configuration>
+			</plugin>
+
+```

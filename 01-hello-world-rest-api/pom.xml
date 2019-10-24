@@ -48,39 +48,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+<!-- 		<plugin>
 				<groupId>com.microsoft.azure</groupId>
 				<artifactId>azure-webapp-maven-plugin</artifactId>
 				<version>1.7.0</version>
-				<configuration>
-					<schemaVersion>V2</schemaVersion>
-					<resourceGroup>hello-world-rest-api-rg</resourceGroup>
-					<appName>hello-world-rest-api-in28minutes</appName>
-					<pricingTier>B1</pricingTier>
-					<region>westeurope</region>
-					<appSettings>
-						<property>
-							<name>JAVA_OPTS</name>
-							<value>-Dserver.port=80</value>
-						</property>
-					</appSettings>
-					<runtime>
-						<os>linux</os>
-						<javaVersion>java11</javaVersion>
-						<webContainer>java11</webContainer>
-					</runtime>
-					<deployment>
-						<resources>
-							<resource>
-								<directory>${project.basedir}/target</directory>
-								<includes>
-									<include>*.jar</include>
-								</includes>
-							</resource>
-						</resources>
-					</deployment>
-				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 	<repositories>

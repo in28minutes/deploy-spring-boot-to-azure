@@ -14,7 +14,7 @@ How about learning Azure by deploying Spring Applications to Cloud using Azure W
 - [Video - React in Steps](https://www.youtube.com/watch?v=SWXuXhZkNQc&t=110s)
 - [Article - Getting started with React and Spring Boot - Full Stack](https://www.springboottutorial.com/spring-boot-react-full-stack-crud-maven-application)
 - [Article - Using Spring Security and JWT with React and Spring Boot](https://www.springboottutorial.com/spring-boot-react-full-stack-with-spring-security-basic-and-jwt-authentication)
-- [Azure Code Pipeline Github Repo](https://github.com/in28minutes/spring-boot-todo-rest-api-h2-Azure-codepipeline)
+- [Azure Code Pipeline Github Repo](https://github.com/in28minutes/hello-world-rest-api-azure-pipelines)
 
 ## Installation Guides
 
@@ -268,6 +268,10 @@ Resource1,Resource2,Resource3,Resource4[label=<...>]
 ```
 
 ## Todo
+- Editing
+   - Add Command Line Executions
+   - Make Github Repository Public
+   - 
 - Post Course Creation
   - Course Promotion Emails/Posts
     - 1 Emails on Udemy
@@ -558,6 +562,160 @@ RDS_PASSWORD -
 az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-840a-4de0 --resource-group rest-api-full-stack-rg --location westeurope
 
 az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-840a-4de0 --resource-group rest-api-full-stack-front-end-rg --location westeurope
+
+
+  497  watch -n 0.1 curl https://hello-world-rest-api-v2-in28minutes.azurewebsites.net/hello-world-bean-list
+  498  watch -n 1 curl https://hello-world-rest-api-v2-in28minutes.azurewebsites.net/hello-world-bean-list
+  
+465  mysqlsh todo-web-application-in28minutes.mysql.database.azure.com --user todosuser@todo-web-application-in28minutes
+  466  mysqlsh todo-web-application-in28minutes.mysql.database.azure.com --user todosuser@todo-web-application-in28minutes
+  467  cd ../04-spring-boot-react-full-stack-h2/frontend/todo-app/
+  468  npm install
+  469  npm start
+  470  pwd
+  471  npm run build
+  472  cd build
+  473  ls
+  474  clear
+  475  pwd
+  476  ls
+  477  az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-840a-4de0 --resource-group rest-api-full-stack-rg --location westeurope
+  478  az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-840a-4de0 --resource-group rest-api-full-stack-front-end-rg --location westeurope
+  479  cd ..
+  480  npm start
+  481  exit
+  482  history
+  483  exit
+  484  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  485  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  486  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  487  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  488  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  489  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  490  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  491  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  492  history
+  493  clear
+  494  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  495  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  496  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  497  az webapp log tail --name todo-web-application-mysql-in28minutes --resource-group todo-web-application-mysql-rg
+  498  mysqlsh todo-web-application-in28minutes-command-line.mysql.database.azure.com --user todosuser@todo-web-application-in28minutes-command-line -p
+  499  docker --version
+  500  az group create --name container-resource-group --location westeurope
+  501  az appservice plan create --name container-service-plan --resource-group container-resource-group --sku P1v2 --is-linux
+  502  clear
+  503  az webapp create --resource-group container-resource-group --plan container-service-plan --name todo-rest-api-h2-container --deployment-container-image-name in28min/todo-rest-api-h2:1.0.0.RELEASE
+  504  az webapp create --resource-group container-resource-group --plan container-service-plan --name todo-rest-api-h2-container --deployment-container-image-name in28min/todo-rest-api-h2:1.0.0.RELEASE
+  505  clear
+  506  az webapp create --resource-group container-resource-group --plan container-service-plan --name todo-rest-api-h2-container --deployment-container-image-name in28min/todo-rest-api-h2:1.0.0.RELEASE
+  507  history
+  508  clear
+  509  docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
+  510  docker stop 4ff5238b9464ed7050b89ef137e1b86bbf27c21aa74d5b62090f8fc3e86b4d17
+  511  docker rm 4ff5238b9464ed7050b89ef137e1b86bbf27c21aa74d5b62090f8fc3e86b4d17
+  512  docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
+  513  docker run --name todos-api --publish 5000:5000 --link mysql:mysql in28min/todo-rest-api-mysql:1.0.0.RELEASE
+  514  clear
+  515  docker-compose --version
+  516  pwd
+  517  cd ../06-todo-rest-api-mysql-containerized/
+  518  ls
+  519  docker containers
+  520  docker containers ls
+  521  docker container ls
+  522  clear
+  523  docker container ls
+  524  docker container stop f25f59ebec84
+  525  docker container rm f25f59ebec84
+  526  pwd
+  527  ls
+  528  docker-compose up
+  529  history
+  530  clear
+  531  az group create --name docker-compose-resource-group --location westeurope
+  532  az appservice plan create --name docker-compose-service-plan --sku P1v2 --is-linux
+  533  az appservice plan create --name docker-compose-service-plan --sku P1v2 --resource-group docker-compose-resource-group --is-linux 
+  534  pwd
+  535  ls
+  536  clear
+  537  az webapp create --resource-group docker-compose-resource-group --plan docker-compose-service-plan --name todo-rest-api-mysql-docker-compose --multicontainer-config-type compose --multicontainer-config-file docker-compose.yaml
+  538  clear
+  539  cd ../01-hello-world-rest-api/
+  540  mvn clean install
+  541  mvn azure-webapp:deploy
+  542  az webapp log tail --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  543  clear
+  544  az group delete --name hello-world-rest-api-rg
+  545  mvn clean install -DskipTests
+  546  mvn clean install -DskipTests
+  547  mvn azure-webapp:deploy
+  548  az webapp log tail --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  549  az webapp lorestart -name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  550  az webapp restart -name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  551  az webapp restart --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  552  az webapp log tail --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  553  az webapp log tail --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  554  az provider list
+  555  az webapp log tail --name hello-world-rest-api-in28minutes --resource-group hello-world-rest-api-rg
+  556  cd ../07-hello-world-rest-api/
+  557  mvn clean install
+  558  mvn azure-webapp:deploy
+  559  mvn azure-webapp:deploy
+  560  mvn clean install
+  561  mvn azure-webapp:config
+  562  mvn azure-webapp:deploy
+  563  clear
+  564  az group delete --name container-resource-group --yes
+  565  mvn azure-webapp:deploy
+  566  cd ../01-hello-world-rest-api/
+  567  mvn azure-webapp:deploy
+  568  az group delete --name hello-world-rest-api-rg
+  569  cd ../07-hello-world-rest-api/
+  570  mvn clean install -DskipTests
+  571  mvn azure-webapp:deploy
+  572  mvn azure-webapp:deploy
+  573  clear
+  574  pwd
+  575  mvn clean install
+  576  mvn azure-webapp:deploy
+  577  clear
+  578  mvn clean install -DskipTests
+  579  mvn azure-webapp:deploy
+  580  mvn azure-webapp:deploy
+  581  clear
+  582  cd ../01-hello-world-rest-api/
+  583  mvn clean install -DskipTests
+  584  mvn azure-webapp:deploy
+  585  cd /in28Minutes/git/hello-world-rest-api-azure-pipelines 
+  586  git init
+  587  git add *
+  588  git status
+  589  git commit -m "first commit"
+  590  git remote add origin https://github.com/in28minutes/hello-world-rest-api-azure-pipelines.git
+  591  git push -u origin master
+  592  clear
+  593  git add *
+  594  git commit -m "second commit"
+  595  git add
+  596  clear
+  597  git status
+  598  ls
+  599  git status
+  600  git add *
+  601  git commit -m "V10 change"
+  602  git push -u origin master
+  603  cd /in28Minutes/git/deploy-java-spring-boot-to-azure-webapps 
+  604  ls
+  605  git add *
+  606  git status
+  607  git init
+  608  git add *
+  609  git status
+  610  git commit -m "first commit"
+  611  git remote add origin https://github.com/in28minutes/deploy-spring-boot-to-azure.git
+  612  git push -u origin master
+  613  history
 
 ```
 
