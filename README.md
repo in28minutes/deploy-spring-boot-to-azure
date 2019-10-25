@@ -4,7 +4,7 @@
 
 Spring Boot is the No 1 Java Framework to develop REST API and Microservices. Azure is the One of the Top Cloud Service Providers today.
 
-How about learning Azure by deploying Spring Applications to Cloud using Azure Web Apps?
+How about learning Azure by deploying Spring Applications to Cloud using Azure Web Apps and Azure App Service?
 
 ## Getting Started
 - [Video - Docker in 5 Steps](https://youtu.be/Rt5G5Gj7RP0)
@@ -48,28 +48,28 @@ How about learning Azure by deploying Spring Applications to Cloud using Azure W
 ## Course Overview
 
 In this course, we deploy a variety of Spring Boot Applications to the Cloud:
-- REST APIs - Hello World and Todo - Jar
-- Todo Web Application War
+- REST APIs - Hello World and Todo - JAR
+- Todo Web Application WAR
 - Full Stack Application with React and Spring Boot
 - Single Container with REST API
 - Multi Container with Todo REST API talking to MySQL
 
 This course would be a perfect first step as an introduction to Azure and the Cloud.
 
-You will learn about automating deployments with TODO and creating a continuous delivery pipeline with TODO. You will learn how to Auto Scale applications based on load as well as deploy multiple instances behind a load balancer using Azure Web Apps.
+You will learn about automating deployments with Azure and creating a continuous delivery pipeline with Azure DevOps. You will learn how to Auto Scale applications based on load as well as deploy multiple instances behind a load balancer using Azure App Service.
 
-You will be using a number of Azure Services - TODO. 
+You will be using a number of Azure Services - Azure App Service, Azure Web Apps, Azure DevOps, Azure Database for MySQL Services, Resource Groups, Azure App Service Plans and Azure Subscriptions. 
 
-You will be using deploying a variety of projects to Azure (Azure). These projects are created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
+You will be using deploying a variety of Java Spring Boot projects to Azure (Azure). These projects are created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
 
 ## What you'll learn
 - You will Learn the Fundamentals of Azure from Zero, no previous experience required
 - You will learn to deploy Spring Boot REST API to Azure with Azure Web Apps
-- You will learn to deploy Java, Spring Boot Full Stack Applications to Azure with Azure Web Apps and S3
-- You will be using a number of Azure Services - EC2, S3, Azure CodePipeLine, Azure CodeBuild, SQS, IAM, CloudWatch. 
+- You will learn to deploy Java, Spring Boot Full Stack Applications to Azure with Azure App Service
+- You will be using a number of Azure Services - Azure App Service, Azure Web Apps, Azure DevOps, Azure Database for MySQL Services. 
 - You will learn to deploy containerized Java Spring Boot applications to Azure
-- You will learn to create a continuous delivery pipeline with Azure Code Pipeline
-- You will learn how to Auto Scale applications based on load as well as deploy multiple instances behind a load balancer using Azure Web Apps.
+- You will learn to create a continuous delivery pipeline with Azure DevOps
+- You will learn how to Auto Scale applications based on load as well as deploy multiple instances using Azure Web Apps.
 - You will Join 300,000 Learners having AMAZING LEARNING Experiences with in28Minutes
 
 ## Requirements
@@ -86,89 +86,76 @@ You will be using deploying a variety of projects to Azure (Azure). These projec
 - Step 01 - Getting Started with the Course
 
 ### Getting Started with Azure
-- Step 01 - Creating an Azure Root Account
-- Step 02 - Creating an IAM User for your Azure Account
+- Step 01 - Creating an Azure Account
+- Step 02 - 10000 Feet Overview of Cloud, Azure and Azure Web Apps
 
 ### Getting Started with Azure Web Apps
-- Step 01 - 10000 Feet Overview of Cloud, Azure and Azure Web Apps
-- Step 02 - Getting started with Azure Web Apps - Creating First Application and Environment
-- Step 03 - Quick Exploration of Azure Web Apps
-- Step 04 - Quick Introduction to Azure Regions
-- Step 05 - Azure Resources created by Azure Web Apps - An Overview
-- Step 06 - Its Your Responsibility to Monitor Billing on the Cloud - 5 Recommendations
-- Step 07 - Monitor Azure Billing - Setting Billing Alerts
+- Step 01 - Getting started with Azure Web Apps - Creating First Application and Environment
+- Step 02 - Quick Exploration of Azure Web Apps
+- Step 03 - Quick Introduction to Azure App Service Plans
+- Step 04 - Quick Introduction to Kudu Console
+- Step 05 - Searching efficiently for Azure resources and deleting Resource Groups
+- Step 06 - Exploring Cloud Best Practices - Minimize Costs
 
 ### Deploying Java Spring Boot Hello World REST API to Azure Web Apps
-- Step 01 - Importing Seven Spring Boot Projects from Github
-- Step 02 - Quick Tip - Use Artifacts from build artifacts folder
-- Step 03 - Running 01 Spring Boot Hello World Application in Local
-- Step 04 - Building jar for 01 Spring Boot Hello World Application
-- Step 05 - Deploy 01 Spring Boot Hello World Application to Azure Web Apps
-
-### Deploying Java Spring Boot Todo REST API to Azure Web Apps
-- Step 01 - Setting up 02 Spring Boot Todo REST API in Local
-- Step 02 - Testing 02 Spring Boot Todo REST API in Local
-- Step 03 - Build and Deploy 02 Spring Boot Todo REST API in Azure Web Apps
-- Step 04 - Exploring Azure Web Apps Application Versions
-- Step 05 - Exploring Termination of Azure Web Apps Application Environments
-- Step 06 - Exploring Logs from Azure Web Apps Application Java JAR Environments
+- Step 01 - Importing Four Spring Boot Projects from Github
+- Step 02 - Running 01 Spring Boot Hello World Application in Local
+- Step 03 - Deploy Spring Boot Application to Azure Web Apps - 1 - Azure Web App Maven Plugin
+- Step 04 - Deploy Spring Boot Application to Azure Web Apps - 2 - Install Azure CLI
+- Step 05 - Deploy Spring Boot Application to Azure Web Apps - 3
+- Step 06 - Deploy Spring Boot Application to Azure Web Apps - 4 - Deploying new version
+- Step 07 - Review Log Streams and Tail Web App Logs using Azure CLI
+- Step 08 - Exploring Cloud Best Practices - Regions
 
 ### Deploying Java Spring Boot H2 Web App to Azure Web Apps
-- Step 01 - Running 03 Spring Boot H2 Web App on Local
-- Step 02 - Deploying 03 Spring Boot H2 Web App WAR to Azure Web Apps
-- Step 03 - Testing 03 Spring Boot H2 Web App Azure Deployment
-- Step 04 - Exploring Azure Environment logs of 03 Spring Boot H2 Web App
+- Step 01 - Running 02 Spring Boot H2 Web App on Local
+- Step 02 - Deploying 02 Spring Boot H2 Web App WAR to Azure Web Apps
+- Step 03 - Testing 02 Spring Boot H2 Web App Azure Deployment
+- Step 04 - Exploring Cloud Best Practices - Azure Resource Management
 
-### Deploying Java Spring Boot Web App talking to MySQL with Azure Web Apps and Azure RDS
-- Step 01 - Code Review of 04 Spring Boot MySQL Web App - Environment Variables
+### Deploying Java Spring Boot Web App talking to MySQL with Azure App Service
+- Step 01 - Code Review of 03 Spring Boot MySQL Web App
 - Step 02 - Running MySQL as Docker Container on Local
-- Step 03 - Connect 04 Spring Boot MySQL Web App to MySQL on Local
-- Step 04 - Deploy 04 Spring Boot MySQL Web App to Azure Web Apps
-- Step 05 - Testing 04 Spring Boot MySQL Web App Deployment on Azure Web Apps
-- Step 06 - Exploring Azure Relational Database Service - RDS
-- Step 07 - Exploring Azure - Understanding Security Groups
-- Step 08 - Creating Azure RDS Database outside Azure Web Apps
-- Step 09 - Setting up 04 Spring Boot MySQL Web App to connect to RDS - Environment Variables and Security Groups
-- Step 10 - Creating new Azure Security Group for Azure Web Apps Application
-- Step 11 - Exploring Azure Web Apps Save Environment Configuration Feature
+- Step 03 - Connect 03 Spring Boot MySQL Web App to MySQL on Local
+- Step 04 - Creating MySQL Database in Azure
+- Step 05 - Deploy 03 Spring Boot MySQL Web App to Azure Web Apps
+- Step 06 - Connect 03 Spring Boot App to Azure MySQL Database - Environment Variables
+- Step 07 - Using Azure Cloud Shell to Create Database
+- Step 08 - Connecting to Azure MySQL for Local Machine
+- Step 09 - Create Azure MySQL Database using Azure CLI
+- Step 10 - Delete Resource Groups for Azure Web Apps and Databases
 
-### Deploying Java Full Stack Spring Boot React App with Azure Web Apps and Azure S3
-- Step 01 - Exploring 05 Java Full Stack Spring Boot React App
+### Deploying Java Full Stack Spring Boot React App with Azure App Service
+- Step 01 - Exploring 04 Java Full Stack Spring Boot React App
 - Step 02 - Running React Frontend in Local
-- Step 03 - Deploying Java REST API Backend to Azure Web Apps
-- Step 04 - Building React Frontend Code for Azure Deployment
-- Step 05 - Quick Introduction to Azure Simple Storage Service - S3
-- Step 06 - Deploying React Frontend to Azure S3 Static Website
+- Step 03 - Deploying Java REST API Backend using Azure App Service
+- Step 04 - Deploying React Frontend using Azure App Service
 
 ### Deploying Containerized Java Applications with Azure Web Apps
-- Step 01 - Code Review for 06 Single Container Java Spring Boot REST API
-- Step 02 - Creating and Running Local Docker Image for 06 Java Spring Boot REST API
-- Step 03 - Pushing 06 Single Container Java Spring Boot REST API Docker Image to Docker Hub
-- Step 04 - Deploying 06 Single Container Java Spring Boot REST API Image to Azure Beanstalk
-- Step 05 - Running 07 Multi Container Java Spring Boot REST API with MySQL on Local
-- Step 06 - Deploying 07 Multi Container Java Spring Boot REST API with MySQL to Azure Beanstalk
-- Step 07 - Testing 07 Multi Container Java Spring Boot REST API with MySQL on Azure - Security Groups
+- Step 01 - Code Review for 05 Single Container Java Spring Boot REST API
+- Step 02 - Creating and Running Local Docker Image for 05 Java Spring Boot REST API
+- Step 03 - Pushing Java Spring Boot REST API Docker Image to Docker Hub
+- Step 04 - Deploying Java Spring Boot REST API Docker Image to Azure App Service - Part 1
+- Step 05 - Deploying Java Spring Boot REST API Docker Image to Azure App Service - Part 2
+- Step 06 - Running 06 Multi Container Java Spring Boot App with MySQL on Local
+- Step 07 - Running 06 Multi Container Java Spring Boot App with MySQL using Docker Compose
+- Step 08 - Deploying Docker Compose Java Spring Boot App with MySQL to Azure - Part 1
+- Step 09 - Deploying Docker Compose Java Spring Boot App with MySQL to Azure - Part 2
 
-### Azure Web Apps - CLI, Blue Green Deployments and Worker Apps
-- Step 01 - Introduction to Azure Web Apps Command Line Interface EB CLI
-- Step 02 - Exploring Azure Web Apps Command Line Interface EB CLI - Commands
-- Step 03 - Exploring Azure Web Apps Blue Green Deployments
-- Step 04 - Creating and Deploying Java Worker App to Azure Web Apps
-- Step 05 - Testing Java Worker App on Azure Web Apps using SQS - Simple Queing Service
+### Azure App Service - Creating Auto Scaling Environments
+- Step 01 - Exploring Manual Scaling and ARR Affinity of Azure Web Apps
+- Step 02 - Exploring Auto Scaling features of Azure App Service
+- Step 03 - Creating Deployment Slot for Staging Environment
+- Step 04 - Swap Stage and Production Environments - Blue Green Deployment 
+- Step 05 - Exploring Canary Deployments with Azure App Service
 
-### Azure Web Apps - Creating Load Balanced Auto Scaling Environments
-- Step 01 - Creating Load Balanced Auto Scaling Environments with Azure Web Apps
-- Step 02 - Understand Magic of Azure Web Apps - AZ, ELB, ASG and CloudWatch Alarms
-- Step 03 - Playing with Azure Web Apps Auto Scaling Features
-- Step 04 - Playing with Azure Web Apps Rolling Deployment Options - 1
-- Step 05 - Playing with Azure Web Apps Rolling Deployment Options - 2
+### Continuous Delivery for Java Spring Boot Applications with Azure DevOps
+- Step 01 - Getting Started with Continuous Delivery - Create Github Repository
+- Step 02 - Setup Azure DevOps for Continuous Delivery to Azure App Service - Part 1
+- Step 03 - Setup Azure DevOps for Continuous Delivery to Azure App Service - Part 2
 
-### Continuous Delivery for Java Spring Boot Applications with Azure CodePipeline and Azure CodeBuild
-- Step 01 - Getting Started with Azure CodePipeline and Azure CodeBuild
-- Step 02 - Creating Github Repo and Commit Spring Boot Java Project
-- Step 03 - Configuring Azure CodeBuild and Azure CodePipeline
-- Step 04 - Creating Azure CodeBuild Build Specification 
-- Step 05 -  Testing Continuous Deployment with Azure CodePipeline
+### Conclusion
+- Step 01 - Delete All Resource Groups and Thank You
 
 ### Email headings
   - ⚡⚡⚡ [NEW COURSE] Deploy Spring Boot to Cloud - Azure
@@ -195,9 +182,9 @@ https://www.udemy.com/deploy-java-spring-boot-to-Azure-amazon-web-service/?coupo
 
 This course would be a perfect first step as an introduction to Azure and the Cloud.
 
-You will learn about automating deployments with Azure Web Apps CLI and creating a continuous delivery pipeline with Azure Code Pipeline. You will learn how to Auto Scale applications based on load as well as deploy multiple instances behind a load balancer using Azure Web Apps.
+You will learn about automating deployments with Azure Web Apps and creating a continuous delivery pipeline with Azure DevOps. You will learn how to Auto Scale applications based on load as well as deploy multiple instances using Azure Web Apps.
 
-You will be using a number of Azure Services - EC2, S3, Azure CodePipeLine, Azure CodeBuild, SQS, IAM, CloudWatch. 
+You will be using a number of Azure Services - Azure App Service, Azure Web Apps, Azure DevOps, Azure Database for MySQL Services. 
 
 You will be using deploying a variety of projects to Azure (Azure). These projects are created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
 
@@ -221,7 +208,6 @@ for file in *; do mv "${file}" "${file//-/ }"; done
 for file in *; do mv "${file}" "${file//   / - }"; done
 for file in *; do mv "${file}" "${file//01 Step/Step}"; done
 ```
-
   
 ### Useful Links
 - [Our Website](http://www.in28minutes.com)
@@ -271,7 +257,6 @@ Resource1,Resource2,Resource3,Resource4[label=<...>]
 - Editing
    - Add Command Line Executions
    - Make Github Repository Public
-   - 
 - Post Course Creation
   - Course Promotion Emails/Posts
     - 1 Emails on Udemy
@@ -283,41 +268,6 @@ Resource1,Resource2,Resource3,Resource4[label=<...>]
   - Do atleast 3 Youtube live sessions
   - After a Month
     - UFB and Packt
-
-## Next Steps
-
-- Free Tier and Billing Alerts everywhere
-- Check Region before each video
-    - Azure
-      - SSH into EC2
-      - Creating Azure Account
-      - Creating IAM User
-
-## Preparation
-
-- Introduction : https://youtu.be/r0GlKXOgvqo
-- Chapter 1 : 
-    - https://youtu.be/xBMTnDxUO14
-    - https://youtu.be/VSqY_wY6BqE
-    - https://youtu.be/xYTHL83289c
-- Chapter 2 : Deploy application
-    - https://youtu.be/VRVWBvcgv2U
-    - https://youtu.be/9oZ8oFaQKo4
-- Chapter 3:
-    - https://youtu.be/4nZh69FRUBk
-    - https://youtu.be/imu6Ol8nxW4
-- Chapter 4: Provision Database and integrate with app
-    - https://youtu.be/0-B2E_IAB50
-    - https://youtu.be/Zjm3hW2eMOw
-- Chapter 5: React Front End and Integration with Backend
-    -   https://youtu.be/0mdDbmfhRo4
-- Chapter 6 : Auto Scaling
-    - https://youtu.be/OySZl1sFvBc
-[8:59 PM, 10/12/2019] Sathish.m.nl: Part2: https://youtu.be/hgIyuE7Yn68
-[8:59 PM, 10/12/2019] Sathish.m.nl: Part3: https://youtu.be/xYTHL83289c
-
-https://github.com/sathishmurugesan/azuretutorials
-
 
 ## Notes
 
@@ -566,7 +516,7 @@ az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-8
 
   497  watch -n 0.1 curl https://hello-world-rest-api-v2-in28minutes.azurewebsites.net/hello-world-bean-list
   498  watch -n 1 curl https://hello-world-rest-api-v2-in28minutes.azurewebsites.net/hello-world-bean-list
-  
+
 465  mysqlsh todo-web-application-in28minutes.mysql.database.azure.com --user todosuser@todo-web-application-in28minutes
   466  mysqlsh todo-web-application-in28minutes.mysql.database.azure.com --user todosuser@todo-web-application-in28minutes
   467  cd ../04-spring-boot-react-full-stack-h2/frontend/todo-app/
@@ -633,13 +583,7 @@ az webapp up --name frontend-full-stack-in28minutes --plan ServicePlan763a680f-8
   528  docker-compose up
   529  history
   530  clear
-  531  az group create --name docker-compose-resource-group --location westeurope
-  532  az appservice plan create --name docker-compose-service-plan --sku P1v2 --is-linux
-  533  az appservice plan create --name docker-compose-service-plan --sku P1v2 --resource-group docker-compose-resource-group --is-linux 
-  534  pwd
-  535  ls
-  536  clear
-  537  az webapp create --resource-group docker-compose-resource-group --plan docker-compose-service-plan --name todo-rest-api-mysql-docker-compose --multicontainer-config-type compose --multicontainer-config-file docker-compose.yaml
+
   538  clear
   539  cd ../01-hello-world-rest-api/
   540  mvn clean install
