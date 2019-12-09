@@ -1,5 +1,8 @@
 # Deploy Spring Boot Applications to Azure using Azure Web Apps
 
+
+[![Image](https://www.springboottutorial.com/images/Course-Deploy-SpringBoot-To-Azure-Web-Apps.png "Azure Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/deploy-spring-boot-to-azure/)
+
 ## Take your first steps towards cloud with Azure Web Apps. Deploy REST APIs, Full Stack Applications, Web Applications and Containers to the cloud.
 
 Spring Boot is the No 1 Java Framework to develop REST API and Microservices. Azure is the One of the Top Cloud Service Providers today.
@@ -157,64 +160,6 @@ You will be using deploying a variety of Java Spring Boot projects to Azure (Azu
 ### Conclusion
 - Step 01 - Delete All Resource Groups and Thank You
 
-### Email headings
-  - ⚡⚡⚡ [NEW COURSE] Deploy Spring Boot to Cloud - Azure
-  - Is it Your Time... (to start with Azure)
-  - By Far, The Easiest Way? ... (to learn cloud)
-  - #1 Skill For Years to Come
-  - Do You have the #1 Skill for a Java Developer?
-  - Do You want to be Future Proof?
-
-### Email Template
-
-```
-Do you have ZERO experience with Azure (Azure)? 
-
-Are you ready to learn about the cloud with Azure (Azure) and take the next step in your programming career? 
-
-Do you want to learn to Deploy Java Spring Boot Applications to Azure (Azure) using Azure Web Apps with an easy to learn, step by step approach? 
-
-Do you want to join 300,000+ learners having Amazing Learning Experiences with in28Minutes?
-
-For existing in28Minutes Learners, we are creating a special offer for just $9.99. This is the LOWEST possible price allowable on Udemy. 
-
-https://www.udemy.com/deploy-java-spring-boot-to-Azure-amazon-web-service/?couponCode=FIRST_PROMO_UDEMY
-
-This course would be a perfect first step as an introduction to Azure and the Cloud.
-
-You will learn about automating deployments with Azure Web Apps and creating a continuous delivery pipeline with Azure DevOps. You will learn how to Auto Scale applications based on load as well as deploy multiple instances using Azure Web Apps.
-
-You will be using a number of Azure Services - Azure App Service, Azure Web Apps, Azure DevOps, Azure Database for MySQL Services. 
-
-You will be using deploying a variety of projects to Azure (Azure). These projects are created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
-
-https://www.udemy.com/deploy-java-spring-boot-to-Azure-amazon-web-service/?couponCode=FIRST_PROMO_UDEMY
-
-
-Happy coding and thanks for being a student!
-
-
-Ranga
-
-Thank you for all the love!
-
-#in28Minutes #ImLearningIn28Minutes #ImLovingIn28Minutes
-
-Good Luck and Keep Learning in28Minutes
-```
-
-```sh
-for file in *; do mv "${file}" "${file//-/ }"; done
-for file in *; do mv "${file}" "${file//   / - }"; done
-for file in *; do mv "${file}" "${file//01 Step/Step}"; done
-```
-  
-### Useful Links
-- [Our Website](http://www.in28minutes.com)
-- [Facebook](http://facebook.com/in28minutes)
-- [Twitter](http://twitter.com/in28minutes)
-- [Google Plus](https://plus.google.com/u/3/110861829188024231119)
-
 ## Diagrams
 
 - Courtesy http://viz-js.com/
@@ -252,22 +197,6 @@ Database[label=<MySQL Database>]
 Resource1,Resource2,Resource3,Resource4[label=<...>]
 }
 ```
-
-## Todo
-- Editing
-   - Add Command Line Executions
-   - Make Github Repository Public
-- Post Course Creation
-  - Course Promotion Emails/Posts
-    - 1 Emails on Udemy
-    - 1 Emails to Email List
-  - Create YouTube Course Preview Video
-    - Add YouTube Course Preview Video as End Video for all videos
-    - Make it the YouTube Default Video
-  - Release atleast 20 small videos - one a day on Youtube
-  - Do atleast 3 Youtube live sessions
-  - After a Month
-    - UFB and Packt
 
 
 ### Commands Executed during the course
@@ -393,3 +322,14 @@ az webapp deployment slot list  --name todo-web-application-h2-2111 --resource-g
 az webapp list
 az webapp list-runtimes
 ```
+
+### Troubleshooting
+- Refer our TroubleShooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ
+
+## Youtube Playlists - 500+ Videos
+
+[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
+
+## Keep Learning in28Minutes
+
+in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
